@@ -34,11 +34,11 @@ def merge_docx_files_to_epub(folder_path, output_file):
         
         # Read the content of each DOCX file
         doc = Document(file_path)
-        content = '\n'.join([p.text for p in doc.paragraphs])
+        content = '<br>'.join([p.text for p in doc.paragraphs])
         
         # Create an EPUB chapter
         c = epub.EpubHtml(title=chapter_title, file_name=f'{chapter_title}.xhtml', lang='en')
-        c.content = f'<h1>{chapter_title}</h1><p>{content.replace("\n", "<br>")}</p>'
+        c.content = f"""<h1>{chapter_title}</h1><p>{content}</p>"""
         
         # Add chapter to book
         book.add_item(c)
