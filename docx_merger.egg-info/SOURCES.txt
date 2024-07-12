@@ -1,0 +1,10 @@
+README.md
+setup.py
+docx_merger/__init__.py
+docx_merger/merger.py
+docx_merger.egg-info/PKG-INFO
+docx_merger.egg-info/SOURCES.txt
+docx_merger.egg-info/dependency_links.txt
+docx_merger.egg-info/entry_points.txt
+docx_merger.egg-info/requires.txt
+docx_merger.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+merge-docx = docx_merger.merger:main
