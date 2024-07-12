@@ -18,7 +18,7 @@ setup(
     description='A package to merge DOCX files into one EPUB file',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/lmmartinez97/docx_merger',
+    url='https://github.com/lmmartinez97/merger',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
